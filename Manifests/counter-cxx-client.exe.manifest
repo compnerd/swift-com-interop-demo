@@ -1,0 +1,13 @@
+<!-- Copyright © 2026 Saleem Abdulrasool <compnerd@compnerd.org>. All rights reserved. -->
+<!-- SPDX-License-Identifier: BSD-3-Clause -->
+<assembly xmlns="urn:schemas-microsoft-com:asm.v1" manifestVersion="1.0">
+  <assemblyIdentity name="Swift.COMCounter.CxxClient"
+                    version="1.0.0.0"
+                    type="win32"/>
+  <file name="CounterServer.dll">
+    <comClass clsid="{5B459E10-3A0E-4E86-A676-6A1F57A40100}"
+              threadingModel="Apartment"/>
+    <comClass clsid="{5B459E10-3A0E-4E86-A676-6A1F57A40102}"
+              threadingModel="Apartment"/>
+  </file>
+</assembly>
